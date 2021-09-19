@@ -1,0 +1,113 @@
+Program hari_2;
+uses wincrt;
+var nohari:integer;
+b : char;
+begin
+repeat
+clrscr;
+writeln ('0 : Minggu 1 :Senin 2 : Selasa 3 : Rabu');
+Writeln ('4 : Kamis 5 : Jum"at 6 : Sabtu');
+Write ('Masukkan Nomor hari yang diinginkan:');readln(nohari);
+case nohari of
+1,3 :
+begin
+writeln('Senin dan Rabu');writeln('Les Matematika');end;
+2,4,5:
+writeln('Selasa, Kamis, Sabtu'); writeln('Les Bahasa Inggris');end;
+6:
+begin
+writeln('Sabtu');writeln('Jalan-Jalan');end;
+0 :
+begin
+writeln('Minggu'); writeln ('Jalan-Jalan');end;
+else
+begin
+writeln;writeln ('P E R H A T I A N');
+writeln;writeln ('Nomor Hari 1 s/d 7');
+writeln ('Silahkan Masukkan Nomor Lagi');
+end
+end;
+write('Mau Coba Lagi Y/T ?');Readln(b);
+until (b='T') or (b='t'); end.
+
+
+
+
+==================================================================================================
+Program hari_2;
+uses crt;
+var nohari:integer;
+b : char;
+begin
+repeat
+clrscr;
+writeln ('0 : Minggu 1 :Senin 2 : Selasa 3 : Rabu');
+Writeln ('4 : Kamis 5 : Jum"at 6 : Sabtu');
+Write ('Masukkan Nomor hari yang diinginkan:');read(nohari);
+case nohari of
+1,3 :
+begin
+write ('Senin dan Rabu') ;write('Les Matematika');end;
+2,4,5:
+write('Selasa, Kamis, Sabtu'); write('Les Bahasa Inggris');end;
+6:
+begin
+write('Sabtu');write('Jalan-Jalan');end;
+0 :
+begin
+write('Minggu'); write ('Jalan-Jalan');end;
+else
+begin
+writeln;writeln ('P E R H A T I A N');
+writeln;writeln ('Nomor Hari 1 s/d 7');
+writeln ('Silahkan Masukkan Nomor Lagi');
+end
+end;
+write('Mau Coba Lagi Y/T ?');Readln(b);
+until (b='T') or (b='t'); end.
+
+
+============================================================================================================================
+>PEMILIHAN AWAL<
+
+Program hari;
+uses crt;
+var nohari : integer;
+b : char;
+begin
+repeat
+clrscr;
+Write ('Masukkan Nomor Hari Yang Diinginkan');readln(nohari);
+Case nohari of
+1 :
+begin
+Writeln('Nama hari : Minggu');end;
+2:
+begin
+Writeln('Nama hari : Senin');end;
+3:
+begin
+Writeln('Nama hari : Selasa');end;
+4:
+begin
+Writeln('Nama hari : Rabu');end;
+5:
+begin
+Writeln('Nama hari : Kamis');end;
+6:
+begin
+Writeln('Nama hari : Jum"at');end;
+7:
+begin
+Writeln('Nama hari : Sabtu');end;
+else
+begin
+writeln;
+writeln('P E R H A T I A N');
+Writeln;
+writeln('NomorHari 1s/d 7);
+writeln('Silahkan Masukkan Nomor Lagi');
+end
+end;
+write('Mau coba lagi Y/T ?');readln(b);
+until (b='T') or (b='t'); end.

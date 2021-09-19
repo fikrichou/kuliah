@@ -1,0 +1,54 @@
+Program Konversi_Jarak;
+uses crt;
+var cm: integer;
+m,km,dm: real;
+B,kon:char;
+begin
+repeat
+clrscr;
+writeln ('------------->PROGRAM KONVERSI JARAK SEDERHANA<-------------');
+writeln ('------------------>Oleh : Muhamad Fikri<--------------------');
+writeln ('------------------------>18141228<--------------------------');
+writeln ('----------------->MANAJEMEN INFORMATIKA<--------------------');
+WRITELN ('____________________________________________________________');
+writeln('1. Konversi Dari cm ke meter');
+writeln('2. Konversi Dari meter ke km');
+writeln('3. Konversi Dari cm ke dm');
+writeln('Pilih Konversi Yang Anda Inginkan :'); readln (kon);
+case kon of
+'1':
+begin
+writeln('konversi cm ke meter');
+writeln('masukkan angka dalam satuan cm'); readln(cm);
+m:=cm/100;
+writeln('Hasilnya Adalah',m:4:2,' meter'); readln;
+end;
+'2':
+begin
+writeln('konversi meter ke km');
+writeln('masukkan angka dalam satuan m'); readln(m);
+km:=m/100;
+writeln('Hasilnya Adalah',km:4:2,' km'); readln;
+end;
+'3':
+begin
+writeln('konversi cm ke dm');
+writeln(' masukkan angka dalam satuan cm'); readln(cm);
+dm:=cm/10;
+writeln('Hasilnya Adalah',dm:4:2,' dm'); readln;
+end;
+end;
+write('ulang lagi(Y/T)?='); readln (B);
+until(B='T') or (B='t');
+end.
+
+
+
+
+
+
+
+
+
+
+

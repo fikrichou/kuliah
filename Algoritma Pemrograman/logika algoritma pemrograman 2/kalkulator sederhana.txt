@@ -1,0 +1,132 @@
+
+Program Kalkulator_sederhana;
+uses crt;
+var
+bil1, bil2 : integer;
+hasil : integer;
+op :char;
+begin
+repeat
+clrscr;
+writeln ('PROGRAM KALKULATOR SEDERHANA');
+writeln ('Masukkan Bilangan Pertama: ');readln (bil1);
+writeln ('Masukkan Bilangan Kedua: ');readln (bil2);
+writeln ('Masukkan Operator Penjumlahan (+,-,*,/): ');readln (op);
+	if op = '+' then
+	BEGIN	
+	hasil:=bil1+bil2;
+	writeln ('Sudah Terhitung dan Hasilnya Adalah =',hasil);
+	readln;
+	end;
+		else
+		if op = '-' then
+		BEGIN
+		hasil:=bil1-bil2;
+		writeln ('Sudah Terhitung dan Hasilnya Adalah =',hasil);
+		readln;
+		end;
+			else
+			if op = '*' then
+			BEGIN
+			hasil:=bil1*bil2;
+			writeln ('Sudah Terhitung dan Hasilnya Adalah =',hasil);
+			readln;
+			end;
+				else
+				if op = '/' then
+				begin
+				hasil:=bil1/bil2;
+				writeln ('Sudah Terhitung dan Hasilnya Adalah =',hasil);
+				readln;
+				end;
+					else
+					begin
+					writeln;writeln ('P E R H A T I A N');
+					writeln;writeln ('Operator Penjumlahan +,-,*,/');
+					writeln ('Masukkan Operator Penjumlahan dengan Benar');
+					end
+					end;
+					write('Mau Coba Lagi Y/T ?');Readln(b);
+					until (b='T') or (b='t'); end.
+				
+======================================================================================================
+
+Program Kalkulator_sederhana;
+uses crt;
+var
+bil1, bil2 : integer;
+hasil : integer;
+op :char;
+b : char;
+begin
+clrscr;
+writeln ('PROGRAM KALKULATOR SEDERHANA');
+writeln ('Masukkan Bilangan Pertama: ');readln (bil1);
+writeln ('Masukkan Bilangan Kedua: ');readln (bil2);
+writeln ('Masukkan Operator Penjumlahan (+,-,*,/): ');readln (op);
+	if op = '+' then
+	BEGIN
+	hasil:=bil1+bil2;
+	writeln ('Sudah Terhitung dan Hasilnya Adalah =',hasil);
+	readln;
+	end
+		else
+                begin
+                if op = '-' then
+                begin
+                hasil:=bil1-bil2;
+		writeln ('Sudah Terhitung dan Hasilnya Adalah =',hasil);
+		readln;
+		end
+			else
+                        begin
+			if op = '*' then
+			BEGIN
+			hasil:=bil1*bil2;
+			writeln ('Sudah Terhitung dan Hasilnya Adalah =',hasil);
+			readln;
+			end
+				else
+                                begin
+				if op = '/' then
+				begin
+                                hasil:=bil1+bil2;
+				writeln ('Sudah Terhitung dan Hasilnya Adalah =',hasil);
+				readln;
+				end
+					else
+					begin
+					writeln;writeln ('P E R H A T I A N');
+					writeln;writeln ('Operator Penjumlahan +,-,*,/');
+                                        end. 
+
+
+
+==================================================================================================
+Program Kalkulator_sederhana;
+uses crt;
+var
+bil1, bil2 : integer;
+hasilt,hasilb,hasilk,hasilkl : integer;
+op :char;
+begin
+clrscr;
+writeln ('PROGRAM KALKULATOR SEDERHANA');
+writeln ('Masukkan Bilangan Pertama: ');readln (bil1);
+writeln ('Masukkan Bilangan Kedua: ');readln (bil2);
+writeln ('=======================================================');
+Hasilt:=bil1+bil2;
+Hasilk:=bil1-bil2;
+Hasilkl:=bil1*bil2;
+Hasilb:=bil1 div bil2;
+writeln ('Sudah Terhitung dan Hasil tambahnya Adalah =',hasilt);
+readln;
+writeln ('Sudah Terhitung dan Hasil Pengurangan Adalah =',hasilk);
+readln;
+writeln ('Sudah Terhitung dan Hasil Kalinya Adalah =',hasilkl);
+readln;
+writeln ('Sudah Terhitung dan Hasil Baginya Adalah =',hasilb);
+readln;
+end.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
